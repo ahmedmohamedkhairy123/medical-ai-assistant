@@ -107,7 +107,14 @@ ipython_config.py
 #   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
 #poetry.lock
 #poetry.toml
+# Environment variables
+.env
+.env.local
 
+# Virtual Environment
+backend/venv/
+venv/
+__pycache__/
 # pdm
 #   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
 #   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
